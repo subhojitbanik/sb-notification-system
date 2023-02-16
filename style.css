@@ -1,0 +1,40 @@
+.notification img {
+    padding: 10px 0;
+}
+
+.notification-menu {
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background-color: #e5e5e5;
+    border: #989898;
+    padding: 10px;
+    list-style: none;
+    width: 250px;
+    display: none;
+    text-align: left;
+    z-index: 99999;
+    overflow-y: auto;
+    max-height: 300px;
+}
+
+.notification-menu li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.notification-menu .avatar {
+    padding: 2px 0;
+}
+
+.notification-menu h3 {
+    font-size: 15px;
+    margin: 0 0 5px 0;
+    display: inline;
+}
+
+.notification-menu p {
+    margin-bottom: 0;
+    font-size: 14px;
+}
